@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding-top: 1%;
+}
+
+
+.top {
+  background-color: yellow;
+}
+
+.centre::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.centre {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.aside_left {
+  float: left;
+  width: 28%;
+  margin-right: 2%;
+  background-color: pink;
+}
+
+.middle {
+  float: left;
+  width: 40%;
+  background-color: purple;
+}
+
+.aside_right {
+  float: left;
+  width: 28%;
+  margin-left: 2%;
+  background-color: pink;
+}
+
+.widget {
+  margin-bottom: 2px;
+}
+
+.bottom {
+  height: 10%;
+  margin-bottom: 2px;
+  background-color: lightblue;
+
+}
