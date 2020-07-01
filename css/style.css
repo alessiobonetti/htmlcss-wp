@@ -47,21 +47,29 @@ h1 {
   margin-bottom: 15px;
 }
 
-.header_navigator {
-  height: 40px;
+nav {
   background-color: grey;
+  height: 40px;
+}
+
+.header_navigator {
   text-align: center;
-  line-height: 40px;
+  list-style: none;
 }
 
 .header_navigator li {
   display: inline-block;
-  list-style: none;
   text-transform: uppercase;
   padding: 0 2%;
   }
 
+.header_navigator li :hover {
+    background-color: lightgrey;
+  }
+
 .header_navigator a {
+  display: inline-block;
+  line-height: 40px;
   color: #fff;
   text-decoration: none;
 }
