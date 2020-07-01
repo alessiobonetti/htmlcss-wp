@@ -12,14 +12,36 @@
 }
 
 
-.top {
-  background-color: yellow;
+.header_logo {
+  position: relative;
+  height: 300px;
+  margin: 0 5px;
+  border: 5px solid #fff;
+  background-image: url(../img/natural-header.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.header_logo {
-  height: 300px;
-  border: 5px solid white;
-  background-image: url(../img/natural-header.jpg);
+.text_container {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+#title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h1 {
+  display: inline-block;
+  border: 3px solid #fff;
+  padding: 1%;
+  font-size: 45px;
+  margin-bottom: 15px;
 }
 
 .centre::after {
