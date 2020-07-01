@@ -13,6 +13,10 @@ body {
   text-transform: uppercase;
 }
 
+#aside_title{
+
+}
+
 #link_text {
   font-size: 15px;
 }
@@ -93,21 +97,37 @@ nav {
   float: left;
   width: 28%;
   margin-right: 2%;
+  padding: 5px 10px;
   background-color: #fff;
   border-radius: 5px;
 }
 
-.aside_list{
-  margin: 5px 10px;
+.aside_left_title .fa-rss-square {
+  float: left;
+  display: inline-block;
+  color: orange;
+
 }
 
-.aside_list li {
+.aside_left_title {
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aside_left_list {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.aside_left_list li {
   list-style: none;
   padding-bottom: 40px;
   text-align: left;
 }
 
-.aside_list a {
+.aside_left_list a {
   color: green;
   text-decoration: none;
 }
