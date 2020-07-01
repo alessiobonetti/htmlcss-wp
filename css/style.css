@@ -99,7 +99,7 @@ nav {
   float: left;
   width: 28%;
   margin-right: 2%;
-  padding: 5px 10px;
+  padding: 5px 5px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -108,14 +108,16 @@ nav {
   float: left;
   display: inline-block;
   color: orange;
-
-}
-
-.aside_left_title {
-  float: left;
-  margin-bottom: 10px;
   text-align: center;
+  margin-bottom: 15px;
+
 }
+
+.fa-rss-square {
+  margin-right: 5px;
+  font-size: 30px;
+}
+
 
 .aside_left_list {
   content: "";
