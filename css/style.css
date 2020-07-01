@@ -8,6 +8,15 @@ body {
   background-image: url(../img/pattern.png);
 }
 
+#title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#link_text {
+  font-size: 15px;
+}
+
 .container {
   width: 1000px;
   margin: auto;
@@ -33,11 +42,6 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   }
-
-#title {
-  color: #fff;
-  text-transform: uppercase;
-}
 
 h1 {
   display: inline-block;
@@ -89,7 +93,23 @@ nav {
   float: left;
   width: 28%;
   margin-right: 2%;
-  background-color: pink;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.aside_list{
+  margin: 5px 10px;
+}
+
+.aside_list li {
+  list-style: none;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.aside_list a {
+  color: green;
+  text-decoration: none;
 }
 
 .middle {
