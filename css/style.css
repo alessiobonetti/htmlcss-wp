@@ -8,11 +8,18 @@
   width: 1000px;
   margin: auto;
   padding-top: 1%;
+  background-image: url(../img/pattern.png);
 }
 
 
 .top {
   background-color: yellow;
+}
+
+.header_logo {
+  height: 300px;
+  border: 5px solid white;
+  background-image: url(../img/natural-header.jpg);
 }
 
 .centre::after {
