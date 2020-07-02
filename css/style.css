@@ -26,7 +26,7 @@ body {
 .container {
   width: 1000px;
   margin: auto;
-  padding-top: 1%;
+  padding: 2% 0;
 
 }
 
@@ -75,7 +75,7 @@ nav {
 
 .header_navigator li :hover {
     background-color: lightgrey;
-  }
+}
 
 .header_navigator a {
   display: inline-block;
@@ -106,7 +106,7 @@ nav {
 
 .aside_left_title .fa-rss-square {
   float: left;
-  display: inline-block;
+  width: 20%;
   color: orange;
   text-align: center;
   margin-bottom: 15px;
@@ -156,19 +156,53 @@ nav {
   float: left;
   width: 28%;
   margin-left: 2%;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
 }
 
 .widget {
-  margin: 10px 10px;
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  margin: 0 10px 50px 10px;
+  border-radius: 5px;
 }
 
 .bottom {
   height: 10%;
   margin-bottom: 2px;
-  background-color: lightblue;
+  padding: 2%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
 
+.copyright {
+  border-bottom: 1px solid #000;
+
+}
+
+.copyright p {
+  color: lightgrey;
+}
+
+.social_network_list {
+  list-style: none;
+}
+
+.social_network_list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social_network_list li {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+
+.social_network_list li a {
+  color: lightgrey;
+}
+.social_network_list li a>i{
+  font-size: 35px;
 }
